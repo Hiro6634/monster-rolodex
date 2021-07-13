@@ -11,7 +11,6 @@ class App extends Component{
       monsters: []
     };
   }
-  
 
   componentDidMount(){
     fetch('https://jsonplaceholder.typicode.com/users')

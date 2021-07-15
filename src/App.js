@@ -1,7 +1,5 @@
 import React,  { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import reactDom from 'react-dom';
 
 import {CardList} from './components/card-list/card-list.component';
 import {SearchBox} from './components/search-box/search-box.component';
@@ -34,6 +32,7 @@ class App extends Component{
     );
     return(
       <div className="App">
+        <h1>Monsters Rolodex</h1>
         <SearchBox 
           placeholder='search monsters'
           handleChange={this.handleChange} />
